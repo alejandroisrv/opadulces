@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<!-- For IE -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<!-- For Resposive Device -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Cukape - Restaurant Cakes and Coffee Shop Template</title>
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon.png">
+
+
+		<!-- Main style sheet -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- responsive style sheet -->
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+
+		<!-- Fix Internet Explorer ______________________________________-->
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="vendor/html5shiv.js"></script>
+			<script src="vendor/respond.js"></script>
+		<![endif]-->
+
+			
+	</head>
+
+	<body>
+		<div class="main-page-wrapper box-layout">
+
+			<!-- ===================================================
+				Loading Transition
+			==================================================== -->
+			<div id="loader-wrapper">
+				<div id="loader"></div>
+			</div>
+
+			<!-- ===================================================
+				Toggle Menu Content Wrapper
+			==================================================== -->
+			<div id="hidden-aside-menu">
+				<div class="opacity">
+					<button class="close-aside-menu tran3s round-border">
+						<i class="fa fa-close" aria-hidden="true"></i>
+					</button>
+
+					<div class="aside-menu-wrapper">
+						<a href="index.html" class="logo"><img src="images/logo/logo.png" alt="Logo"></a>
+						
+						<ul class="main-nav-wrapper">
+							<li class="dropdown-holder current-active"><a href="#" class="tran3s"><span class="fa fa-home" aria-hidden="true"></span> Home</a>
+								<ul class="sub-menu">
+									<li><a href="index.html">Home version one</a></li>
+									<li><a href="index-2.html">Home version Two</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-holder"><a href="about-us.html" class="tran3s"><span class="fa fa-info-circle" aria-hidden="true"></span> Gallery</a>
+								<ul class="sub-menu">
+									<li><a href="portfolio-v1.html">Portfolio Version One</a></li>
+									<li><a href="portfolio-v2.html">Portfolio Version two</a></li>
+									<li><a href="portfolio-v3.html">Portfolio Version three</a></li>
+									<li><a href="portfolio-v4.html">Portfolio Version Four</a></li>
+									<li><a href="single-portfolio.html">Portfolio Single</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-holder"><a href="#" class="tran3s"><span class="fa fa-cog" aria-hidden="true"></span> GIFT VOUCHERS</a>
+								<ul class="sub-menu">
+									<li><a href="about-us.html">About Us</a></li>
+									<li><a href="team.html">Our Team</a></li>
+									<li><a href="our-menu.html">Our Menu</a></li>
+									<li><a href="pricing-plan.html">Our Plan</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-holder"><a href="#"><span class="fa fa-external-link-square" aria-hidden="true"></span> Pages</a>
+								<ul class="sub-menu">
+									<li><a href="service.html">Service</a></li>
+									<li><a href="shop.html">Shop</a></li>
+									<li><a href="shop-details.html">Shop Details</a></li>
+									<li><a href="faq.html">FAQ</a></li>
+									<li><a href="error.html">Error</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-holder"><a href="#" class="tran3s"><span class="fa fa-newspaper-o" aria-hidden="true"></span> Blog</a>
+								<ul class="sub-menu">
+									<li><a href="our-blog-v1.html">Blog One</a></li>
+									<li><a href="our-blog-v2.html">Blog Two</a></li>
+									<li><a href="blog-details.html">blog Details</a></li>
+								</ul>
+							</li>
+							<li><a href="contact-us.html" class="tran3s"><span class="fa fa-envelope" aria-hidden="true"></span> Contact us</a></li>
+						</ul>
+					</div> <!-- /.aside-menu-wrapper -->
+				</div> <!-- /.opacity -->
+			</div> <!-- /.hidden-aside-menu -->
+
+			<!-- 
+			=============================================
+				Theme Header
+			============================================== 
+			-->
+			<header class="theme-menu-wrapper theme-main-menu-two white-bg">
+				<div class="clearfix">
+					<div class="header-wrapper clearfix">
+						<div class="logo rythm pulse1"><a href="#"><img src="images/logo/logo3.png" alt=""></a></div>
+						<!-- =============== Menu Right Widget ==================== -->
+						<div class="menu-right-widget clearfix">
+							<!-- Curt Button -->
+							<button class="cart-button float-left">
+								<i class="flaticon-shopping-bag"></i>
+								<span class="p-bg-color">0</span>
+							</button>
+							<!-- Toggle Menu Button -->
+							<button class="toggle-show-menu-button float-right">
+								<span></span>
+								<span></span>
+								<span></span>
+							</button>
+						</div> <!-- /menu-right-widget -->
+						<!-- ============================ Theme Menu ========================= -->
+						<nav class="theme-main-menu-wrapper navbar float-right" id="mega-menu-wrapper">
+							<!-- Brand and toggle get grouped for better mobile display -->
+						   <div class="navbar-header">
+						     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+						       <span class="sr-only">Toggle navigation</span>
+						       <span class="icon-bar"></span>
+						       <span class="icon-bar"></span>
+						       <span class="icon-bar"></span>
+						     </button>
+						   </div>
+						   <!-- Collect the nav links, forms, and other content for toggling -->
+						   <div class="collapse navbar-collapse" id="navbar-collapse-1">
+								<ul class="nav">
+									<li class="dropdown-holder active"><a href="index.html" class="tran3s">Home</a>
+										<ul class="sub-menu">
+											<li><a href="index.html">Home version one</a></li>
+											<li><a href="index-2.html">Home version Two</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-holder"><a href="#" class="tran3s">Gallery</a>
+										<ul class="sub-menu">
+											<li><a href="portfolio-v1.html">Portfolio Version One</a></li>
+											<li><a href="portfolio-v2.html">Portfolio Version two</a></li>
+											<li><a href="portfolio-v3.html">Portfolio Version three</a></li>
+											<li><a href="portfolio-v4.html">Portfolio Version Four</a></li>
+											<li><a href="single-portfolio.html">Portfolio Single</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-holder"><a href="#" class="tran3s">GIFT VOUCHERS</a>
+										<ul class="sub-menu">
+											<li><a href="about-us.html">About Us</a></li>
+											<li><a href="team.html">Our Team</a></li>
+											<li><a href="our-menu.html">Our Menu</a></li>
+											<li><a href="pricing-plan.html">Our Plan</a></li>
+											<li class="dropdown-holder"><a href="#">Third Level menu</a>
+												<ul class="second-sub-menu">
+													<li><a href="#">menu one</a></li>
+													<li><a href="#">menu two</a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown-holder"><a href="#" class="tran3s">Pages</a>
+										<ul class="sub-menu">
+											<li><a href="service.html">Service</a></li>
+											<li><a href="shop.html">Shop</a></li>
+											<li><a href="shop-details.html">Shop Details</a></li>
+											<li><a href="faq.html">FAQ</a></li>
+											<li><a href="error.html">Error</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-holder"><a href="#" class="tran3s">Blog</a>
+										<ul class="sub-menu">
+											<li><a href="our-blog-v1.html">Blog One</a></li>
+											<li><a href="our-blog-v2.html">Blog Two</a></li>
+											<li><a href="blog-details.html">blog Details</a></li>
+										</ul>
+									</li>
+									<li><a href="contact-us.html" class="tran3s">Contact us</a></li>
+								</ul>
+						   </div><!-- /.navbar-collapse -->
+						</nav> <!-- /.theme-main-menu-wrapper -->
+					</div> <!-- /.header-wrapper -->
+				</div> <!-- /.container -->
+			</header> <!-- /.theme-menu-wrapper -->
+
+
+			
+			<!-- 
+			=============================================
+				Theme Main Banner
+			============================================== 
+			-->
+			<div id="theme-main-banner" class="banner-two">
+				<div data-src="images/home/slide-2.jpg">
+					<div class="camera_caption">
+						<div class="container text-center">
+							<div class="round-box wow zoomIn animated"></div>
+							<h1 class="wow fadeInUp animated" data-wow-delay="0.1s">Super <br> and <br>Crispy</h1>
+						</div> <!-- /.container -->
+					</div> <!-- /.camera_caption -->
+				</div>
+				<div data-src="images/home/slide-5.jpg">
+					<div class="camera_caption">
+						<div class="container text-center">
+							<div class="round-box wow zoomIn animated"></div>
+							<h1 class="wow fadeInUp animated" data-wow-delay="0.1s">Super <br> and <br>Crispy</h1>
+						</div> <!-- /.container -->
+					</div> <!-- /.camera_caption -->
+				</div>
+			</div> <!-- /#theme-main-banner -->
+
+
+			<!-- 
+			=============================================
+				About us
+			============================================== 
+			-->
+			<div class="about-us-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-xs-12">
+							<img src="images/home/pizza.png" alt="" class="pizza">
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<div class="text">
+								<h2>Nothing Like Tasty After You Get Our Item</h2>
+								<p>We are a provocative creative agency focused on imagining and building highly-interactive digital user experiences that push the limits of user design and development. Thinkers. Doers. Agents of change and be the perefect.We are a provocative creative agency. </p>
+								<span class="p-color">We are a provocative creative agency focused on imagining &amp; building highly-interactive digital user experiences.</span>
+								<img src="images/home/sign.png" alt="">
+							</div> <!-- /.text -->
+						</div>
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</div> <!-- /.about-us-section -->
+
+
+			<!-- 
+			=============================================
+				Short Banner
+			============================================== 
+			-->
+			<div class="short-banner">
+				<div class="opacity">
+					<h2>Making your Christmas cake in <br>September is perfect.</h2>
+					<a href="our-menu.html" class="theme-button"><span>Check Menu</span></a>
+				</div> <!-- /.opacity -->
+			</div> <!-- /.short-banner -->
+
+
+			<!-- 
+			=============================================
+				Delicious Cukape
+			============================================== 
+			-->
+			<div class="delicious-food-section fix-top-margin">
+				<div class="container">
+					<div class="theme-section-title text-center">
+						<h2>Delicious Means Cukape</h2>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed tincidunt ut laoreet <br> dolore magna aliquam erat volutpat lorem</p>
+					</div> <!-- /.theme-section-title -->
+					<div class="row">
+						<div class="col-md-3 col-xs-6">
+							<div class="single-item">
+								<img src="images/home/10.jpg" alt="">
+								<h5><a href="#">Simple Crusty Bread</a></h5>
+								<p>Lorem ipsum dolor amet, consetec <br>adipiscing elit. magna</p>
+							</div>
+						</div> <!-- /.col- -->
+						<div class="col-md-3 col-xs-6">
+							<div class="single-item">
+								<img src="images/home/11.jpg" alt="">
+								<h5><a href="#">Big Size Cream Cake</a></h5>
+								<p>Lorem ipsum dolor amet, consetec <br>adipiscing elit. magna</p>
+							</div>
+						</div> <!-- /.col- -->
+						<div class="col-md-3 col-xs-6">
+							<div class="single-item">
+								<img src="images/home/12.jpg" alt="">
+								<h5><a href="#">Delicious Cupcake</a></h5>
+								<p>Lorem ipsum dolor amet, consetec <br>adipiscing elit. magna</p>
+							</div>
+						</div> <!-- /.col- -->
+						<div class="col-md-3 col-xs-6">
+							<div class="single-item">
+								<img src="images/home/13.jpg" alt="">
+								<h5><a href="#">Simple Crusty Bread</a></h5>
+								<p>Lorem ipsum dolor amet, consetec <br>adipiscing elit. magna</p>
+							</div>
+						</div> <!-- /.col- -->
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+				<div class="devider"></div>
+			</div> <!-- /.delicious-food-section -->
+
+
+			<!-- 
+			=============================================
+				Our Populer Item/Our Portfolio
+			============================================== 
+			-->
+			<div class="our-portfolio popular-item">
+				<div class="container">
+					<div class="theme-section-title">
+						<h2>Our Populer Item</h2>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed tincidunt ut</p>
+						<a href="portfolio-v3.html" class="theme-button"><span>See all Item</span></a>
+					</div> <!-- /.theme-section-title -->
+				</div> <!-- /.container -->
+				<div class="portfolio-box-style">
+					<div class="row">
+						<div class="portfolio-slider-one">
+							<div class="item">
+								<div class="single-portfolio-item">
+									<div class="image-box">
+										<img src="images/portfolio/1.jpg" alt="">
+										<div class="opacity"><a data-fancybox data-src="#hidden-content-1" href="#" data-options='{"smallBtn" : false}'>+</a></div>
+									</div>
+								</div> <!-- /.single-portfolio-item -->
+							</div> <!-- /.item -->
+							<div class="item">
+								<div class="single-portfolio-item">
+									<div class="image-box">
+										<img src="images/portfolio/2.jpg" alt="">
+										<div class="opacity"><a data-fancybox data-src="#hidden-content-2" href="#" data-options='{"smallBtn" : false}'>+</a></div>
+									</div>
+								</div> <!-- /.single-portfolio-item -->
+							</div> <!-- /.item -->
+							<div class="item">
+								<div class="single-portfolio-item">
+									<div class="image-box">
+										<img src="images/portfolio/3.jpg" alt="">
+										<div class="opacity"><a data-fancybox data-src="#hidden-content-3" href="#" data-options='{"smallBtn" : false}'>+</a></div>
+									</div>
+								</div> <!-- /.single-portfolio-item -->
+							</div> <!-- /.item -->
+							<div class="item">
+								<div class="single-portfolio-item">
+									<div class="image-box">
+										<img src="images/portfolio/4.jpg" alt="">
+										<div class="opacity"><a data-fancybox data-src="#hidden-content-4" href="#" data-options='{"smallBtn" : false}'>+</a></div>
+									</div>
+								</div> <!-- /.single-portfolio-item -->
+							</div> <!-- /.item -->
+						</div> <!-- /.portfolio-slider-one -->
+					</div> <!-- /.row -->
+				</div> <!-- /.portfolio-box-style -->
+			</div> <!-- /.our-portfolio -->
+
+
+
+			
+			<!-- 
+			=============================================
+				Our Awesome Team
+			============================================== 
+			-->
+			<div class="our-team team-style-two">
+				<div class="container">
+					<div class="theme-section-title text-center">
+						<h2>Our Awesome Team</h2>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed tincidunt ut laoreet <br> dolore magna aliquam erat volutpat lorem</p>
+					</div> <!-- /.theme-section-title -->
+					<div class="row">
+						<div class="col-sm-4 col-xs-12">
+							<div class="team-member">
+								<div class="image">
+									<img src="images/team/1.jpg" alt="">
+									<div class="opacity tran3s">
+										<ul>
+											<li><a href="#" class="tran3s"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+											<li><a href="#" class="tran3s"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+											<li><a href="#" class="tran3s"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+											<li><a href="#" class="tran3s"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+										</ul>
+									</div> <!-- /.opacity -->
+								</div> <!-- /.image -->
+								<h5>Shimon Carl</h5>
+								<p>Head Chef</p>
+							</div> <!-- /.team-member -->
+						</div> <!-- /.col- -->
+						<div class="col-sm-4 col-xs-12">
+							<div class="team-member">
+								<div class="image">
+									<img src="images/team/2.jpg" alt="">
+									<div class="opacity tran3s">
+										<ul>
+											<li><a href="#" class="tran3s"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+											<li><a href="#" class="tran3s"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+											<li><a href="#" class="tran3s"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+											<li><a href="#" class="tran3s"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+										</ul>
+									</div> <!-- /.opacity -->
+								</div> <!-- /.image -->
+								<h5>Maria Lopa.</h5>
+								<p>Baker</p>
+							</div> <!-- /.team-member -->
+						</div> <!-- /.col- -->
+						<div class="col-sm-4 col-xs-12">
+							<div class="team-member">
+								<div class="image">
+									<img src="images/team/3.jpg" alt="">
+									<div class="opacity tran3s">
+										<ul>
+											<li><a href="#" class="tran3s"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+											<li><a href="#" class="tran3s"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+											<li><a href="#" class="tran3s"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+											<li><a href="#" class="tran3s"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+										</ul>
+									</div> <!-- /.opacity -->
+								</div> <!-- /.image -->
+								<h5>Jemmi Ka.</h5>
+								<p>Chef</p>
+							</div> <!-- /.team-member -->
+						</div> <!-- /.col- -->
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</div> <!-- /.our-team -->
+
+
+			<!-- 
+			=============================================
+				Client Section
+			============================================== 
+			-->
+			<div class="client-section">
+				<div class="opacity">
+					<div class="container">
+						<div class="theme-section-title text-center">
+							<h2>What People Say</h2>
+							<p>Lorem Ipsum proin gravida nibh vel velit auctor aliquetenean  sollicitudin </p>
+						</div> <!-- /.theme-section-title -->
+
+						<div class="row">
+							<div id="client-slider">
+								<div class="item">
+									<div class="client-text">
+										<i class="flaticon-left-quote icon tran3s"></i>
+										<p>Negative feedback is better none. I would rather have a man hate me than overlook me. </p>
+										<h6>Zubayer Hasan / <span>Germany</span></h6>
+									</div> <!-- /.client-text -->
+								</div> <!-- /.item -->
+								<div class="item">
+									<div class="client-text">
+										<i class="flaticon-left-quote icon tran3s"></i>
+										<p>Negative feedback is better none. I would rather have a man hate me than overlook me. </p>
+										<h6>Jemmi Ka.  /<span>California</span></h6>
+									</div> <!-- /.client-text -->
+								</div> <!-- /.item -->
+								<div class="item">
+									<div class="client-text">
+										<i class="flaticon-left-quote icon tran3s"></i>
+										<p>Negative feedback is better none. I would rather have a man hate me than overlook me. </p>
+										<h6>Maria Lopa. / <span>New Yeork</span></h6>
+									</div> <!-- /.client-text -->
+								</div> <!-- /.item -->
+								<div class="item">
+									<div class="client-text">
+										<i class="flaticon-left-quote icon tran3s"></i>
+										<p>Negative feedback is better none. I would rather have a man hate me than overlook me. </p>
+										<h6>lorenc Islam / <span>Germany</span></h6>
+									</div> <!-- /.client-text -->
+								</div> <!-- /.item -->
+								<div class="item">
+									<div class="client-text">
+										<i class="flaticon-left-quote icon tran3s"></i>
+										<p>Negative feedback is better none. I would rather have a man hate me than overlook me. </p>
+										<h6>Mahfuz Riad / <span>Germany</span></h6>
+									</div> <!-- /.client-text -->
+								</div> <!-- /.item -->
+								<div class="item">
+									<div class="client-text">
+										<i class="flaticon-left-quote icon tran3s"></i>
+										<p>Negative feedback is better none. I would rather have a man hate me than overlook me. </p>
+										<h6>Masud Rana  /<span>California</span></h6>
+									</div> <!-- /.client-text -->
+								</div> <!-- /.item -->
+								<div class="item">
+									<div class="client-text">
+										<i class="flaticon-left-quote icon tran3s"></i>
+										<p>Negative feedback is better none. I would rather have a man hate me than overlook me. </p>
+										<h6>Jouno Milon / <span>New Yeork</span></h6>
+									</div> <!-- /.client-text -->
+								</div> <!-- /.item -->
+							</div> <!-- /.client-slider -->
+						</div> <!-- /.row -->
+					</div> <!-- /.container -->
+				</div> <!-- /.opacity -->
+			</div> <!-- /.client-section -->
+
+
+			<!-- 
+			=============================================
+				Our Blog
+			============================================== 
+			-->
+			<div class="our-blog home-blog">
+				<div class="container">
+					<div class="theme-section-title text-center">
+						<h2>From Our Archive</h2>
+					</div> <!-- /.theme-section-title -->
+					<div class="row">
+						<div class="col-sm-4 col-xs-12">
+							<div class="single-blog-grid">
+								<div class="image"><img src="images/blog/1.jpg" alt=""></div>
+								<div class="post">
+									<div class="date">24 Aug , 2017</div>
+									<h3><a href="blog-details.html" class="tran3s title">Delicious Creammy Cake Just Arrived Now.</a></h3>
+									<a href="blog-details.html" class="read-more theme-button"><span>Read More</span></a>
+								</div>
+							</div> <!-- /.single-blog-grid -->
+						</div> <!-- /.col- -->
+						<div class="col-sm-4 col-xs-12">
+							<div class="single-blog-grid">
+								<div class="image"><img src="images/blog/2.jpg" alt=""></div>
+								<div class="post">
+									<div class="date">23 Aug , 2017</div>
+									<h3><a href="blog-details.html" class="tran3s title">Delicious Creammy Cake Just Arrived Now.</a></h3>
+									<a href="blog-details.html" class="read-more theme-button"><span>Read More</span></a>
+								</div>
+							</div> <!-- /.single-blog-grid -->
+						</div> <!-- /.col- -->
+						<div class="col-sm-4 col-xs-12">
+							<div class="single-blog-grid">
+								<div class="image"><img src="images/blog/3.jpg" alt=""></div>
+								<div class="post">
+									<div class="date">22 Aug , 2017</div>
+									<h3><a href="blog-details.html" class="tran3s title">Delicious Creammy Cake Just Arrived Now.</a></h3>
+									<a href="blog-details.html" class="read-more theme-button"><span>Read More</span></a>
+								</div>
+							</div> <!-- /.single-blog-grid -->
+						</div> <!-- /.col- -->
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</div> <!-- /.our-blog -->
+
+
+			<!-- 
+			=============================================
+				Footer
+			============================================== 
+			-->
+			<footer class="theme-main-footer">
+				<div class="top-footer-widget">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-3 col-sm-4 col-xs-12 footer-logo">
+								<a href="#" class="logo"><img src="images/logo/logo2.png" alt=""></a>
+								<p>Azimpur, Hola Sec 7, Brazil <br>demo@company.com</p>
+								<a href="tel:#" class="tran3s">+00 0000 000 0000</a>
+							</div> <!-- /.footer-logo -->
+							<div class="col-md-2 col-sm-4 col-xs-12 footer-list-widget">
+								<h5>Quick Links</h5>
+								<ul>
+									<li><a href="about-us.html" class="tran3s">About us</a></li>
+									<li><a href="pricing-plan.html" class="tran3s">Membership</a></li>
+									<li><a href="#" class="tran3s">Item</a></li>
+									<li><a href="#" class="tran3s">Refund Policy</a></li>
+									<li><a href="contact-us.html" class="tran3s">Contact us</a></li>
+								</ul>
+							</div> <!-- /.footer-list-widget -->
+							<div class="col-md-3 col-sm-4 col-xs-12 insta-feed">
+								<h5>Quick Links</h5>
+								<ul class="clearfix">
+									<li><a href="#"><img src="images/home/4.jpg" alt=""></a></li>
+									<li><a href="#"><img src="images/home/5.jpg" alt=""></a></li>
+									<li><a href="#"><img src="images/home/6.jpg" alt=""></a></li>
+									<li><a href="#"><img src="images/home/7.jpg" alt=""></a></li>
+									<li><a href="#"><img src="images/home/8.jpg" alt=""></a></li>
+									<li><a href="#"><img src="images/home/9.jpg" alt=""></a></li>
+								</ul>
+							</div> <!-- /.insta-feed -->
+							<div class="col-md-4 col-xs-12 col-xs-12 subscribe-widget">
+								<div>
+									<h5>Subscribe us</h5>
+									<p>Sign up for get special offer news from us</p>
+									<form action="#">
+										<input type="text" placeholder="Your Email Address">
+									</form>
+									<ul>
+										<li><a href="#" class="tran3s"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="tran3s"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="tran3s"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="tran3s"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+									</ul>
+								</div>
+							</div> <!-- /.subscribe-widget -->
+						</div> <!-- /.row -->	
+					</div> <!-- /.container -->
+				</div> <!-- /.top-footer-widget -->
+				<div class="bottom-footer">
+					<p>Copyright &copy;2019 <span class="p-color">Heloshape</span></p>
+				</div> <!-- /.bottom-footer -->
+			</footer> <!-- /.theme-main-footer -->
+
+
+
+	      	<div class="portfolio-item-info" id="hidden-content-1">
+			    <div class="main-container">
+			    	<img src="images/portfolio/big-1.jpg" alt="">
+			    	<div class="info-data">
+			    		<h3>The Food Name</h3>
+			    		<b>Contrary to popular belief, Lorem Ipsum is not simply random text, making it over 2000 years old. Richard MClintock, Latin professor at Hampde Sydney College in Virginia, </b>
+			    	</div> <!-- /.info-data -->
+			    </div> <!-- /.container -->
+			</div> <!-- /.portfolio-item-info -->
+			<div class="portfolio-item-info" id="hidden-content-2">
+			    <div class="main-container">
+			    	<img src="images/portfolio/big-2.jpg" alt="">
+			    	<div class="info-data">
+			    		<h3>The Food Name</h3>
+			    		<b>Contrary to popular belief, Lorem Ipsum is not simply random text, making it over 2000 years old. Richard MClintock, Latin professor at Hampde Sydney College in Virginia, </b>
+			    	</div> <!-- /.info-data -->
+			    </div> <!-- /.container -->
+			</div> <!-- /.portfolio-item-info -->
+			<div class="portfolio-item-info" id="hidden-content-3">
+			    <div class="main-container">
+			    	<img src="images/portfolio/big-3.jpg" alt="">
+			    	<div class="info-data">
+			    		<h3>The Food Name</h3>
+			    		<b>Contrary to popular belief, Lorem Ipsum is not simply random text, making it over 2000 years old. Richard MClintock, Latin professor at Hampde Sydney College in Virginia, </b>
+			    	</div> <!-- /.info-data -->
+			    </div> <!-- /.container -->
+			</div> <!-- /.portfolio-item-info -->
+			<div class="portfolio-item-info" id="hidden-content-4">
+			    <div class="main-container">
+			    	<img src="images/portfolio/big-4.jpg" alt="">
+			    	<div class="info-data">
+			    		<h3>The Food Name</h3>
+			    		<b>Contrary to popular belief, Lorem Ipsum is not simply random text, making it over 2000 years old. Richard MClintock, Latin professor at Hampde Sydney College in Virginia, </b>
+			    	</div> <!-- /.info-data -->
+			    </div> <!-- /.container -->
+			</div> <!-- /.portfolio-item-info -->
+
+			
+			
+			<!-- Scroll Top Button -->
+			<button class="scroll-top tran3s">
+				<i class="fa fa-angle-up" aria-hidden="true"></i>
+			</button>
+
+			<div id='player' class="clearfix">
+	          <button id='start' class="tran3s" title="Start Music"><i class="flaticon-volume-on"></i></button>
+	          <button id='stop' class="tran3s" title="Stop Music"><i class="flaticon-volume-off"></i></button>
+	      	</div>
+
+
+		<!-- Js File_________________________________ -->
+		<!-- j Query -->
+		<script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
+		<!-- Bootstrap JS -->
+		<script type="text/javascript" src="vendor/bootstrap/bootstrap.min.js"></script>
+		<!-- Vendor js _________ -->
+		<!-- Camera Slider -->
+		<script type='text/javascript' src='vendor/Camera-master/scripts/jquery.mobile.customized.min.js'></script>
+	    <script type='text/javascript' src='vendor/Camera-master/scripts/jquery.easing.1.3.js'></script> 
+	    <script type='text/javascript' src='vendor/Camera-master/scripts/camera.min.js'></script>
+	    <!-- Mega menu  -->
+		<script type="text/javascript" src="vendor/bootstrap-mega-menu/js/menu.js"></script>
+		<!-- Rythm js -->
+		<script type="text/javascript" src="vendor/Rythm-js/rythm.js"></script>
+    	<script type="text/javascript" src="js/audio.js"></script>
+		<!-- WOW js -->
+		<script type="text/javascript" src="vendor/WOW-master/dist/wow.min.js"></script>
+		<!-- owl.carousel -->
+		<script type="text/javascript" src="vendor/owl-carousel/owl.carousel.min.js"></script>
+		<!-- Fancybox -->
+		<script type="text/javascript" src="vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+		
+
+		<!-- Theme js -->
+		<script type="text/javascript" src="js/theme.js"></script>
+
+		</div> <!-- /.main-page-wrapper -->
+	</body>
+</html>
